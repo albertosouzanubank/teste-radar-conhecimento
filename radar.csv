@@ -1,0 +1,9 @@
+name,ring,quadrant,isNew,status,description
+Create HTTP Endpints in a Clojure Service,Master,IC4,FALSE,no change,"Create and manage various endpoints (POST, GET, UPDATE, PATCH, DELETE) effectively in the back end."
+Scaffold new services,Apply,IC4,FALSE,no change,"efficiently scaffolding a new backend service, setting up the necessary structure and tools to ensure a solid foundation for future development."
+Make external HTTP Request,Explore,IC4,FALSE,no change,"making external HTTP requests through a service, effectively utilizing tools and libraries to retrieve and manage data from external sources."
+Queries with Datomic,Aware,IC4,FALSE,no change,"Create a lookup query in Datomic, confidently utilizing the correct syntax and tools to retrieve the desired data efficiently."
+Create HTTP Endpints in a Clojure Service,Master,IC5,FALSE,no change,"Create and manage various endpoints (POST, GET, UPDATE, PATCH, DELETE) effectively in the back end."
+Scaffold new services,Master,IC5,FALSE,no change,"efficiently scaffolding a new backend service, setting up the necessary structure and tools to ensure a solid foundation for future development."
+Make external HTTP Request,Master,IC5,FALSE,no change,"making external HTTP requests through a service, effectively utilizing tools and libraries to retrieve and manage data from external sources."
+Queries with Datomic,Master,IC5,FALSE,no change,"Create a lookup query in Datomic, confidently utilizing the correct syntax and tools to retrieve the desired data efficiently."
