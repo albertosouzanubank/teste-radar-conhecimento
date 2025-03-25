@@ -1,32 +1,87 @@
-name,ring,quadrant,isNew,description
-"Engineering Principles",Apply,IC4,false,"Understand and follow basic engineering expectations, including unblocking teammates when necessary and correctly prioritizing tasks."
-"Functional Programming – Basic Concepts",Apply,IC4,false,"Understand functional programming paradigms, including immutability, pure functions, and composition."
-"Microservices Architecture",Apply,IC4,false,"Understand how microservices architecture works, including its advantages in scalability, flexibility, and maintainability."
-"Diplomat Architecture",Explore,IC4,false,"Understand and apply the Diplomat architecture pattern used in Nubank's backend services."
-"Clojure – Fundamentals",Apply,IC4,false,"Master basic syntax, data structures, and core functions in Clojure."
-"REPL-Driven Development",Apply,IC4,false,"Apply interactive development using REPL to test and refine code incrementally."
-"Pure Functions",Apply,IC4,false,"Write deterministic functions that produce the same result for the same arguments without side effects."
-"Higher-Order Functions",Apply,IC4,false,"Use functions like map, filter, reduce and create functions that take or return other functions."
-"Structural Editing (Paredit)",Explore,IC4,false,"Efficiently manipulate Clojure code using structural editing to maintain structural integrity."
-"Docstrings and Documentation",Apply,IC4,false,"Write clear and useful documentation for functions, macros, and variables in Clojure code."
-"Idempotency",Explore,IC4,false,"Implement operations that can be applied multiple times with the same result."
-"Immutability",Apply,IC4,false,"Work effectively with immutable data structures to ensure predictable and concurrency-safe code."
-"Plumatic Schemas",Explore,IC4,false,"Validate data structures using Plumatic Schemas to ensure runtime correctness."
-"Clojure Spec",Explore,IC4,false,"Explore how to define specifications to validate data and test functions."
-"Common Components and Libraries",Explore,IC4,false,"Use common Nubank components and libraries to manage the lifecycle of software components."
-"Unit Testing",Apply,IC4,false,"Write tests for individual functions to verify specific behaviors."
-"Integration Testing (state-flow)",Explore,IC4,false,"Implement tests that verify component interaction using state-flow."
-"Sachem (Contract Testing)",Explore,IC4,false,"Ensure that payloads produced by one service can be consumed by another service."
-"Leiningen",Explore,IC4,false,"Manage Clojure projects, including dependencies, compilation, and testing."
-"Kafka Basics",Explore,IC4,false,"Understand the basic operation of Kafka as a distributed streaming platform."
-"Datomic – Basic Queries",Explore,IC4,false,"Use the Datalog language to query data in Datomic."
-"HTTP – Pedestal Interceptors",Explore,IC4,false,"Implement interceptors to modularize HTTP request processing."
-"Observability – Basic Concepts",Explore,IC4,false,"Monitor and understand the internal state of a system through logs, metrics, and traces."
-"Splunk – Basic Queries",Explore,IC4,false,"Perform basic queries to analyze application logs."
-"AWS – Basic Services",Aware,IC4,false,"Be familiar with the main AWS services used at Nubank."
-"Security – Personal Data and PII",Apply,IC4,false,"Understand and apply practices for protecting personal data and personally identifiable information."
-"Correlation ID",Explore,IC4,false,"Use correlation IDs to trace requests and events in distributed systems."
-"Event-Driven Architecture",Explore,IC4,false,"Implement systems that communicate asynchronously through events."
-"Terraform",Aware,IC4,false,"Understand the basic principles of infrastructure as code with Terraform."
-"Experimentation",Explore,IC4,false,"Use the experimentation platform to measure the impact of changes."
-"Tolerant Readers",Explore,IC4,false,"Implement data consumers that accept extra fields and require only what's necessary."
+name,description,ring,quadrant,isNew
+know diplomat architecture,know diplomat architecture,Master,IC4,FALSE
+know how to how to explain a technical...,know how to how to explain a technical thing to a non a technical person,Master,IC4,FALSE
+know how to use jira,know how to use jira,Master,IC4,FALSE
+know how to manage github,know how to manage github,Master,IC4,FALSE
+know how to manage git,know how to manage git,Master,IC4,FALSE
+know how to document and share their knowledge...,know how to document and share their knowledge using confluence,Master,IC4,FALSE
+know how to develop in clojure,know how to develop in clojure,Master,IC4,FALSE
+know how to ask help from different roles...,know how to ask help from different roles in different job families,Master,IC4,FALSE
+identify and include best practices in the development...,identify and include best practices in the development lifecycle,Master,IC4,FALSE
+run simulator serving bdc,run simulator serving bdc,Master,IC4,FALSE
+know how to write a integration test with...,know how to write a integration test with stateflow,Master,IC4,FALSE
+know how to use shuffle locally,know how to use shuffle locally,Master,IC4,FALSE
+know how to how to refine a ideia...,know how to how to refine a ideia and extract what is really essencial to be developed,Master,IC4,FALSE
+knows the diplomat structure and the correct application...,knows the diplomat structure and the correct application of each layer,Master,IC4,FALSE
+know how to create new http endpoint to...,know how to create new http endpoint to receive a get in a clojure service,Master,IC4,FALSE
+know how to consume an external http endpoint,know how to consume an external http endpoint,Master,IC4,FALSE
+know how to create a function which adapts...,know how to create a function which adapts a external payload to internal map,Master,IC4,FALSE
+know communication soft skills for day to day...,know communication soft skills for day to day problem solving,Master,IC4,FALSE
+know how to create integration and unit tests,know how to create integration and unit tests,Master,IC4,FALSE
+know how to use atlas and tracing,know how to use atlas and tracing,Apply,IC4,FALSE
+know how to communicate a non-sharded with a...,know how to communicate a non-sharded with a sharded service,Apply,IC4,FALSE
+know how to build the app in android...,know how to build the app in android and ios,Master,IC4,FALSE
+know how to communicate technical details to non-technical...,know how to communicate technical details to non-technical stakeholders,Apply,IC4,FALSE
+know how to debug a problem by looking...,know how to debug a problem by looking for logs on alexandria,Apply,IC4,FALSE
+know how to design good rest apis,know how to design good rest apis,Apply,IC4,FALSE
+know how to diagnose and troubleshoot critical failures,know how to diagnose and troubleshoot critical failures,Apply,IC4,FALSE
+know how to check a service health,know how to check a service health,Apply,IC4,FALSE
+know how to apply good error handlings,know how to apply good error handlings,Apply,IC4,FALSE
+know how to change a service to a...,know how to change a service to a different account,Apply,IC4,FALSE
+know how to troubleshoot failing service infra (e.g....,know how to troubleshoot failing service infra (e.g. pods),Apply,IC4,FALSE
+know how to use bdc's state manager,know how to use bdc's state manager,Apply,IC4,FALSE
+know how to use tracing to find problems,know how to use tracing to find problems,Apply,IC4,FALSE
+"know how to write rfc, adr and other...","know how to write rfc, adr and other technical documents",Apply,IC4,FALSE
+know how to write tests on flutter,know how to write tests on flutter,Apply,IC4,FALSE
+know how/when to open a crash and deal...,know how/when to open a crash and deal with all the activities related to it,Apply,IC4,FALSE
+know how to find a log using alexandria,know how to find a log using alexandria,Apply,IC4,FALSE
+know how to how to discover information about...,know how to how to discover information about other services using isa,Apply,IC4,FALSE
+know how kubernetes works,know how kubernetes works,Apply,IC4,FALSE
+know how to create a new service from...,know how to create a new service from scratch,Master,IC4,FALSE
+know how to how to use atlas to...,know how to how to use atlas to tracking a request,Apply,IC4,FALSE
+know how to identify problems in datomic metrics...,know how to identify problems in datomic metrics (transactor and peer),Apply,IC4,FALSE
+know how to make a query on datomic,know how to make a query on datomic,Apply,IC4,FALSE
+"know how to send communication (e-mail, push, now-dash)","know how to send communication (e-mail, push, now-dash)",Apply,IC4,FALSE
+know how to turn a service shard-aware,know how to turn a service shard-aware,Apenas sei que existe,IC4,FALSE
+know how to use dynamodb,know how to use dynamodb,Apply,IC4,FALSE
+know how kafka works,know how kafka works,Apply,IC4,FALSE
+know how to create an experiment and use...,know how to create an experiment and use cockpit,Apply,IC4,FALSE
+know some terminal tools can help with some...,know some terminal tools can help with some analisys,Apply,IC4,FALSE
+know how to create a dashboard on graphana...,know how to create a dashboard on graphana to monitor a feature,Apply,IC4,FALSE
+know how bdc works/understand its structure,know how bdc works/understand its structure,Apply,IC4,FALSE
+know how definition repo works,know how definition repo works,Apply,IC4,FALSE
+know how istio works,know how istio works,Apply,IC4,FALSE
+know how to apply policies in aws with...,know how to apply policies in aws with iam-policies,Apply,IC4,FALSE
+know microservices system design foundation,know microservices system design foundation,Explore,IC4,FALSE
+"knows how to apply datomic functions (e.g. retract,...","knows how to apply datomic functions (e.g. retract, cas)",Apply,IC4,FALSE
+know how to conduct discovery and whiteboarding sessions,know how to conduct discovery and whiteboarding sessions,Explore,IC4,FALSE
+know about s3,know about s3,Explore,IC4,FALSE
+know how to change a configuration at a...,know how to change a configuration at a definition file,Explore,IC4,FALSE
+know how dynamo works,know how dynamo works,Explore,IC4,FALSE
+know how workflows and rollouts work,know how workflows and rollouts work,Explore,IC4,FALSE
+Engineering Principles,"Understand and follow basic engineering expectations, including unblocking teammates when necessary and correctly prioritizing tasks.",Apply,IC4,FALSE
+Functional Programming – Basic Concepts,"Understand functional programming paradigms, including immutability, pure functions, and composition.",Apply,IC4,FALSE
+Microservices Architecture,"Understand how microservices architecture works, including its advantages in scalability, flexibility, and maintainability.",Apply,IC4,FALSE
+Clojure – Fundamentals,"Master basic syntax, data structures, and core functions in Clojure.",Apply,IC4,FALSE
+REPL-Driven Development,Apply interactive development using REPL to test and refine code incrementally.,Apply,IC4,FALSE
+Pure Functions,Write deterministic functions that produce the same result for the same arguments without side effects.,Apply,IC4,FALSE
+Higher-Order Functions,"Use functions like map, filter, reduce and create functions that take or return other functions.",Apply,IC4,FALSE
+Docstrings and Documentation,"Write clear and useful documentation for functions, macros, and variables in Clojure code.",Apply,IC4,FALSE
+Idempotency,Implement operations that can be applied multiple times with the same result.,Apply,IC4,FALSE
+Immutability,Work effectively with immutable data structures to ensure predictable and concurrency-safe code.,Apply,IC4,FALSE
+Plumatic Schemas,Validate data structures using Plumatic Schemas to ensure runtime correctness.,Master,IC4,FALSE
+Clojure Spec,Explore how to define specifications to validate data and test functions.,Apply,IC4,FALSE
+Common Components and Libraries,Use common Nubank components and libraries to manage the lifecycle of software components.,Explore,IC4,FALSE
+Unit Testing,Write tests for individual functions to verify specific behaviors.,Apply,IC4,FALSE
+Sachem (Contract Testing),Ensure that payloads produced by one service can be consumed by another service.,Aware,IC4,FALSE
+Leiningen,"Manage Clojure projects, including dependencies, compilation, and testing.",Apply,IC4,FALSE
+Kafka Basics,Understand the basic operation of Kafka as a distributed streaming platform.,Explore,IC4,FALSE
+Datomic – Basic Queries,Use the Datalog language to query data in Datomic.,Explore,IC4,FALSE
+HTTP – Pedestal Interceptors,Implement interceptors to modularize HTTP request processing.,Aware,IC4,FALSE
+Observability – Basic Concepts,"Monitor and understand the internal state of a system through logs, metrics, and traces.",Explore,IC4,FALSE
+AWS – Basic Services,Be familiar with the main AWS services used at Nubank.,Aware,IC4,FALSE
+Security – Personal Data and PII,Understand and apply practices for protecting personal data and personally identifiable information.,Apply,IC4,FALSE
+Correlation ID,Use correlation IDs to trace requests and events in distributed systems.,Apply,IC4,FALSE
+Event-Driven Architecture,Implement systems that communicate asynchronously through events.,Apply,IC4,FALSE
+Terraform,Understand the basic principles of infrastructure as code with Terraform.,Aware,IC4,FALSE
+Tolerant Readers,Implement data consumers that accept extra fields and require only what's necessary.,Apply,IC4,FALSE
